@@ -1,1 +1,52 @@
 # SimilarityScorePrivacy
+
+200311766_HW1.py - Readme
+
+Steps to run the program: 
+1. Use python3. 
+2. Place the program in a directory where the movies/ directory is also present. 
+3. Run the program using the command python3 200311766_HW1.py. 
+
+Sample output: 
+
+HippoMac:hw1-files mumanika$ python3 200311766_HW1.py
+The weights that have been computed for the movies are:
+03124	0.08158933699959232
+06315	0.08160505491876055
+07242	0.08164844369534954
+16944	0.08161489477641136
+17113	0.0816603191038822
+10935	0.08164646622070376
+11977	0.08166626360766739
+03276	0.08168611145531343
+14199	0.0816326379485879
+08191	0.08166824611782734
+06004	0.0876552503936246
+01292	0.08768793722221335
+15267	0.08772896619363886
+03768	0.08765932965065752
+02137	0.08763895214961775
+Minimum Weight: 0.08158933699959232
+Maximum Weight: 0.08772896619363886
+The top 5 similarity scores are:
+[0.07857135454521896, 0.0713391788106347, 0.049185154168262135, 0.04820648895532677, 0.046392712928145494]
+The user ID with the highest similarity score is:
+1664010 0.07857135454521896
+The movie ratings of this user along with the auxiliary database is:
+03124 4 3.5
+06315 4 4.0
+07242 4 3.9
+16944 4 4.2
+17113 4 4.2
+11977 4 4.2
+03276 4
+14199 4 4.5
+08191 4 3.8
+06004 4 3.9
+01292 3 3.3
+15267 4 4.2
+03768 4 3.5
+02137 4
+The difference between the highest and the second highest similarity scores are: 0.007232175734584262
+The value of M for the auxiliary data set is: 0.08365139005235107
+HippoMac:hw1-files mumanika$
